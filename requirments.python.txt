@@ -1,0 +1,7 @@
+unstructured[all-docs]
+langchain_chroma
+langchain 
+langchain-community 
+langchain-openai
+python_dotenv
+openai

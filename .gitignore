@@ -1,0 +1,122 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# ============================================================
+# Environment Variables / Secrets
+# ============================================================
+# Keep the .env.example but ignore the real .env
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Uploaded / User Files (runtime data, not source code)
+# ============================================================
+uploads/
+
+# ============================================================
+# Vector Store / Chroma DB / FAISS indices
+# ============================================================
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================
+# OS & Editor artifacts
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# ============================================================
+# Testing & Coverage
+# ============================================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================
+# Type Checking
+# ============================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ============================================================
+# Distribution / Packaging
+# ============================================================
+*.tar.gz
+*.zip
+*.rar
