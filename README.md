@@ -91,10 +91,6 @@ Multi_Model_RAG/
 ├── requirments.linux.txt      # System-level dependencies (Linux/Colab)
 ├── templates/                 # Jinja2 HTML templates
 ├── uploads/                   # Uploaded PDFs are stored here
-├── screenshots/               # UI screenshots
-│   ├── file_upload.png
-│   ├── chat_area.png
-│   └── tranformer_diagram.png
 └── .env                       # API keys and config (not committed)
 ```
 
